@@ -1,0 +1,29 @@
+.navBar {
+  flex-grow: 1;
+}
+
+.toolbar {
+  min-height: 48px;
+}
+
+.menuButton {
+  margin-right: 16px;
+}
+
+.title {
+  flex-grow: 1;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.personIcon {
+  margin-right: 5px;
+}
+
+.loginText {
+  font-size: 11px;
+
+  .innerText {
+    text-transform: capitalize;
+  }
+}

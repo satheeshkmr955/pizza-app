@@ -1,0 +1,134 @@
+.root {
+  max-width: 300px;
+  margin: 15px;
+}
+.media {
+  height: 0;
+  padding-top: 56.25%;
+  position: relative;
+
+  .iconSize {
+    width: 24px;
+    height: 24px;
+    background: white;
+    overflow: hidden;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1rem;
+  }
+
+  .favoriteButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .priceContainer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    margin: 5px;
+    padding: 0 5px;
+    cursor: default;
+
+    .rupeeIcon {
+      font-size: 18px;
+    }
+
+    .priceText {
+      text-shadow: #000 0px 0px 5px, #000 0px 0px 10px, #000 0px 0px 15px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+
+  .toppingButton {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #333;
+    background: white;
+    padding: 0px 15px;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 500;
+
+    .arrowIcon {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+.header {
+  padding: 10px;
+}
+
+.headerTitle {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.formControl {
+  margin: 8px;
+  min-width: 120px;
+}
+.selectEmpty {
+  margin-top: 16px;
+}
+
+.outlined {
+  color: green;
+  border: 1px solid green;
+  padding: 2px 5px;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.selectMenu {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cartContainer {
+  width: 90px;
+  height: 30px;
+  border: 1px solid #bababa;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: hidden;
+
+  .item {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+  }
+  .text {
+    border-right: 1px solid #bababa;
+    border-left: 1px solid #bababa;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .button {
+    cursor: pointer;
+    color: #6f6f6f;
+  }
+}

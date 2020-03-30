@@ -1,0 +1,20 @@
+.layoutContainer {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.main {
+  align-self: flex-start;
+  background: url("../../assets/images/layout/background.jpg") repeat center
+    center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.footerContainer {
+  align-self: flex-end;
+}

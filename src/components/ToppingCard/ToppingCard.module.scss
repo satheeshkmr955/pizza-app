@@ -1,0 +1,25 @@
+.root {
+  max-width: 185px;
+  margin: 15px;
+}
+
+.cardContent {
+  padding: 8px !important;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.media {
+  height: 70px;
+  width: 80px;
+  border-radius: 4px;
+}
+
+.addButton {
+  padding: 0px 15px;
+  font-size: 12px;
+}
